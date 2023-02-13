@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header{ background-color: olive; } */
+
+#titleh1{
+    /* background-color: red; */
+    background-image: url(../img/design1_image1.jpg);
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    /* background-color: yellow; */
+    font-size: 5rem;
+}
+
+#subtitleh2_and_logo{
+    background-color: black;
+    width: 100%;
+    height: 40px; /*2rem + 8px*/
+    margin-top: 7px;
+}
+
+#subtitle{
+    /*background-color: black;*/
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 80%;
+}
+
+#logo{
+    /* background-color: pink; */
+    margin-top: -40px;
+    width: 120px;
+    position: absolute;
+    left: 70%;
+}
+
+nav{
+    /* background-color: red; */
+    width: 25%;
+}
+
+a{
+    display: block;
+    margin: 40px 10px;
+}
+
+main{
+    /* background-color: greenyellow; */
+    width: 70%;
+    display: inline;
+}
+
+section{
+    /* background-color: orange; */
+    width: 70%;
+}
