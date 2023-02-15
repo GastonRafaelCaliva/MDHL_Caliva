@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-/* header{ background-color: olive; } */
-
 #titleh1{
-    /* background-color: red; */
     background-image: url(../img/design1_image1.jpg);
     height: 320px;
     background-repeat: no-repeat;
@@ -15,57 +12,61 @@
 }
 
 h1{
-    /* background-color: yellow; */
     font-size: 5rem;
 }
 
 #subtitleh2_and_logo{
     background-color: black;
     width: 100%;
-    height: 40px; /*2rem + 8px*/
+    height: 40px;
     margin-top: 7px;
+    display: flex;
+}
+
+#placeholder{
+    flex-grow: 1;
 }
 
 #subtitle{
-    /*background-color: black;*/
     color: white;
     font-size: 2rem;
+    flex-grow: 1;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
-    width: 80%;
 }
 
 #logo{
-    /* background-color: pink; */
     margin-top: -40px;
-    width: 120px;
-    position: absolute;
-    left: 70%;
+    height: 120px;
+    flex-grow: 1;
+    object-fit: contain;
+}
+
+#nav_main{
+    display: flex;
 }
 
 nav{
-    position: relative;
-    /* background-color: blue; */
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-height: 400px;
+    gap: 2rem;
     width: 20%;
-    vertical-align: top;
 }
 
 a{
-    display: block;
-    margin: 40px 10px;
+    width: 70%;
+    padding: 1rem;
+    align-self: center;
+    text-align: center;
 }
 
 main{
-    /* background-color: greenyellow; */
     width: 70%;
-    display: inline-block;
     margin: 40px 0px;
 }
 
 section{
-    /* background-color: orange; */
     width: 70%;
 }
 
@@ -74,14 +75,90 @@ section{
     text-decoration: none;
 }
 
-#gmail_contact{
-    display: inline;
-}
-
 p{
     text-indent: 30px;
 }
 
 main div p{
     margin-bottom: 14px;
+}
+
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 5px 10px;
+}
+
+.date{
+    text-align: center;
+}
+
+.th-left{
+    text-align: left;
+}
+
+.text-underline-cursive{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+.title0{
+    position: absolute;
+    opacity: 0;
+}
+
+dt {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+dd {
+    text-indent: 20px;
+    margin-bottom: 1em;
+}
+
+.galery{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+span{
+    font-weight: bold;
+}
+
+#phone_email{
+    display: flex;
+    justify-content: space-between;
+}
+
+#game_information_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+ol, ul{
+    list-style-position: inside;
+}
+
+.list-type-letter{
+    list-style-type: lower-latin;
+}
+
+.dt-rules{
+    margin-top: 30px
+}
+
+.li-rules{
+    margin-top: 20px;
 }
