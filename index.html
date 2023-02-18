@@ -17,53 +17,74 @@
 </head>
 <body>
     <header>
-        <div id="titleh1">
-            <h1>Mighty Ducks Hockey League</h1>
+        <div class="headertop">
+            <nav>
+                <div class="divnav1">
+                    <a class="button_current_page" href="#">Home</a>
+                    <a href="./about.html">About MDHL</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+                <div class="divnav1">
+                    <a href="./game_info.html">Game Info</a>
+                    <a href="./rules.html">Rules</a>
+                    <a href="./registration.html">Registration</a>
+                </div>
+            </nav>
         </div>
-
-        <div id="subtitleh2_and_logo">
-            <div id="placeholder"></div>
-            <h2 id="subtitle">Upcoming Events</h2>
-
-            <img id="logo" src="./assets/img/Logo_Mighty_ducks-01.png" alt="Logo Mighty Ducks">
+        <div class="headerbottom">
+            <img class="logo_header" src="./assets/img/logo_MDHL.png" alt="Logo Mighty Ducks">
+            <h1 class="titleheader">Mighty Ducks Hockey League</h1>
         </div>
     </header>
     
-    <div id="nav_main">
-        <nav>
-            <a class="button_current_page" href="#">Home</a>
-            <a href="./about.html">About MDHL</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./game_info.html">Game Info</a>
-            <a href="./rules.html">Rules</a>
-        </nav>
-
-        <main>
-            <section>
-                <h3 class="title0">Upcoming Events</h3>
-                <dl>
-                    <dt>August 4</dt>
-                    <dd>MDSL Fundraiser</dd>
-                
-                    <dt>August 16</dt>
-                    <dd>Season Kick-off: Meet the Teams</dd>
-                
-                    <dt>September 1</dt>
-                    <dd>First Game of the Season (Check Game Schedule for details)</dd>
-                </dl>
-            </section>
-        </main>
+    <main>
+        <section>
+            <h2 class="sectiontitle">Upcoming Events</h2>
+            <div class="contcards">
+                <a href="#" class="cardindex">
+                    <div class="conticono">
+                        <img class="icono" src="./assets/img/hockey_icono_1.png" alt="icono hockey">
+                    </div>
+                    <div class="contdesc">
+                        <p class="descdate">August 4</p>
+                        <p class="descp">MDSL Fundraiser</p>
+                    </div>
+                </a>
+                <a href="#" class="card cardindex">
+                    <div class="conticono">
+                        <img class="icono" src="./assets/img/hockey_icono_2.png" alt="icono hockey">
+                    </div>
+                    <div class="contdesc">
+                        <p class="descdate">August 16</p>
+                        <p class="descp">Season Kick-off: Meet the Teams</p>
+                    </div>
+                </a>
+                <a href="#" class="card cardindex">
+                    <div class="conticono">
+                        <img class="icono" src="./assets/img/hockey_icono_3.png" alt="icono hockey">
+                    </div>
+                    <div class="contdesc">
+                        <p class="descdate">September 1</p>
+                        <p class="descp">First Game of the Season (Check Game Schedule for details)</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <div class="divgalery">
+        <h4 class="divgalerytitle">Previous matches</h4>
+        <div class="galery">
+            <figure class="bottom_image">
+                <img src="./assets/img/hockey_1.jpg" alt="Hockey Player 1" height="240">
+            </figure>
+            <figure class="bottom_image">
+                <img src="./assets/img/hockey_2.jpg" alt="Hockey Player 2" height="240">
+            </figure>
+            <figure class="bottom_image">
+                <img src="./assets/img/hockey_3.jpg" alt="Hockey Player 3" height="240">
+            </figure>
+        </div>
     </div>
-    <div class="galery">
-        <figure class="bottom_image">
-            <img src="./assets/img/hockey_1.jpg" alt="Hockey Player 1" height="240">
-        </figure>
-        <figure class="bottom_image">
-            <img src="./assets/img/hockey_2.jpg" alt="Hockey Player 2" height="240">
-        </figure>
-        <figure class="bottom_image">
-            <img src="./assets/img/hockey_3.jpg" alt="Hockey Player 3" height="240">
-        </figure>
-    </div>
+    <footer></footer>
 </body>
 </html>

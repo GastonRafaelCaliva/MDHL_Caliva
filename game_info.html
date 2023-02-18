@@ -17,119 +17,133 @@
 </head>
 <body>
     <header>
-        <div id="titleh1">
-            <h1>Mighty Ducks Hockey League</h1>
+        <div class="headertop">
+            <nav>
+                <div class="divnav1">
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About MDHL</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+                <div class="divnav1">
+                    <a class="button_current_page" href="#">Game Info</a>
+                    <a href="./rules.html">Rules</a>
+                    <a href="./registration.html">Registration</a>
+                </div>
+            </nav>
         </div>
-
-        <div id="subtitleh2_and_logo">
-            <div id="placeholder"></div>
-            <h2 id="subtitle">Fall Schedule</h2>
-
-            <img id="logo" src="./assets/img/Logo_Mighty_ducks-01.png" alt="Logo Mighty Ducks" width="80">
+        <div class="headerbottom">
+            <img class="logo_header" src="./assets/img/logo_MDHL.png" alt="Logo Mighty Ducks">
+            <h1 class="titleheader">Mighty Ducks Hockey League</h1>
         </div>
     </header>
     
-    <div id="nav_main">
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./about.html">About MDHL</a>
-            <a href="./contact.html">Contact</a>
-            <a class="button_current_page" href="#">Game Info</a>
-            <a href="./rules.html">Rules</a>
-        </nav>
-        
-        <main>
-            <article>
-                <h3 class="title0">Article</h3>
-                <table>
-                    <caption class="text-underline-cursive">
-                        *All games take place on Saturday
-                    </caption>
-                    <thead>
-                        <tr>
-                            <th>SEPTEMBER</th>
-                            <th class="th-left">Teams</th>
-                            <th class="th-left">Location</th>
-                            <th class="th-left">Times</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="date" rowspan="2">9/10</td>
-                            <td>U1 and U4</td>
-                            <td>AJ Katzenmaier</td>
-                            <td>9:30 a.m.</td>
-                        </tr>
-                        <tr>
-                            <td>U3 and U2</td>
-                            <td>Greenbay</td>
-                            <td>1:00 p.m.</td>
-                        </tr>
-                        <tr>
-                            <td class="date" rowspan="2">9/08</td>
-                            <td>U5 and U6</td>
-                            <td>Howard A Yeager</td>
-                            <td>9:30 a.m.</td>
-                        </tr>
-                        <tr>
-                            <td>U6 and U1</td>
-                            <td>Marjorie P Hart</td>
-                            <td>1:00 p.m.</td>
-                        </tr>
-                        <tr>
-                            <td class="date" rowspan="2">9/15</td>
-                            <td>U2 and U4</td>
-                            <td>North</td>
-                            <td>9:30 a.m.</td>
-                        </tr>
-                        <tr>
-                            <td>U3 and U5</td>
-                            <td>AJ Katzenmaier</td>
-                            <td>1:00 p.m.</td>
-                        </tr>
-                        <tr>
-                            <td class="date" rowspan="2">9/22</td>
-                            <td>U1 and U3</td>
-                            <td>South</td>
-                            <td>9:30 a.m.</td>
-                        </tr>
-                        <tr>
-                            <td>U2 and U6</td>
-                            <td>Howard A Yeager</td>
-                            <td>1:00 p.m.</td>
-                        </tr>
-                        <tr>
-                            <td class="date">9/29</td>
-                            <td>U4 and U5</td>
-                            <td>Greenbay</td>
-                            <td>9:30 a.m.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </article>
-            <article id="game_information_footer">
-                <h3 class="title0">Article</h3>
-                <p><span>Facility Type:</span> Outdoor</p>
-                <p><span>Additional Information:</span> If deemed necessary by MDHL Â¡ames may be shortened or cancelled due to extreme weather conditions.</p>
-                <p><span>Please direct all questions to:</span> Michael Randall, League Coordinator</p>
-                <div id="phone_email">
-                    <p><span>Phone:</span> (630) 690-8132</p>
-                    <p><span>Email:</span> michael.randallQchihockey.org</p>
-                </div>
-            </article>
-        </main>
+    <main>
+        <section class="sectiongameinfo">
+            <h2 class="sectiontitle">Game Info</h2>
+            <h3 class="sectiontitletable">Fall Schedule</h3>
+            <p class="text-underline-cursive">*All games take place on Saturday</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>SEPTEMBER</th>
+                        <th class="th-left">Teams</th>
+                        <th class="th-left">Location</th>
+                        <th class="th-left">Times</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="date" rowspan="2">9/10</td>
+                        <td>U1 and U4</td>
+                        <td><a href="#AJ_Katzenmaier">AJ Katzenmaier</a></td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>U3 and U2</td>
+                        <td><a href="#Greenbay">Greenbay</a></td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td class="date" rowspan="2">9/08</td>
+                        <td>U5 and U6</td>
+                        <td><a href="#Howard_A_Yeager">Howard A Yeager</a></td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>U6 and U1</td>
+                        <td><a href="#Marjorie_P_Hart">Marjorie P Hart</a></td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td class="date" rowspan="2">9/15</td>
+                        <td>U2 and U4</td>
+                        <td><a href="#North">North</a></td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>U3 and U5</td>
+                        <td><a href="#AJ_Katzenmaier">AJ Katzenmaier</a></td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td class="date" rowspan="2">9/22</td>
+                        <td>U1 and U3</td>
+                        <td><a href="#South">South</a></td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                    <tr>
+                        <td>U2 and U6</td>
+                        <td><a href="#Howard_A_Yeager">Howard A Yeager</a></td>
+                        <td>1:00 p.m.</td>
+                    </tr>
+                    <tr>
+                        <td class="date">9/29</td>
+                        <td>U4 and U5</td>
+                        <td><a href="#Greenbay">Greenbay</a></td>
+                        <td>9:30 a.m.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <div class="game_information_footer">
+            <p><span>Facility Type:</span> Outdoor</p>
+            <p><span>Additional Information:</span> If deemed necessary by MDHL Â¡ames may be shortened or cancelled due to extreme weather conditions.</p>
+            <p><span>Please direct all questions to:</span> Michael Randall, League Coordinator</p>
+            <div class="phone_email">
+                <p><span>Phone:</span> (630) 690-8132</p>
+                <p><span>Email:</span> michael.randallQchihockey.org</p>
+            </div>
+        </div>
+    </main>
+    <div class="divlocations">
+        <h3 class="sectiontitletable">Locations</h3>
+        <div class="divmaps">
+            <div class="cardmap" id="AJ_Katzenmaier">
+                <h3 class="titlemap">AJ Katzenmaier</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458165122!2d-87.86499328504057!3d42.32588114525284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1676665011836!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="cardmap" id="Greenbay">
+                <h3 class="titlemap">Greenbay</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d182055.15414505822!2d-88.13058002626626!3d44.523104631473416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8802e2e809b380f3%3A0x6370045214dcf571!2sGreen%20Bay%2C%20Wisconsin%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1676665088684!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="cardmap" id="Howard_A_Yeager">
+                <h3 class="titlemap">Howard A Yeager</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2950.269876673788!2d-87.85606978504097!3d42.31544224591161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880feccac26b07c5%3A0x8b51fa5d6efe771a!2sHoward%20A.%20Yeager%20School%20(PREK-K)!5e0!3m2!1ses!2sar!4v1676665142619!5m2!1ses!2sar"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="cardmap" id="Marjorie_P_Hart">
+                <h3 class="titlemap">Marjorie P Hart</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2949.780458165122!2d-87.86499328504057!3d42.32588114525284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f932fbc6ba7cd%3A0xcf2bbe275c6da815!2sAJ%20Katzenmaier%20Academy!5e0!3m2!1ses!2sar!4v1676665011836!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="cardmap" id="North">
+                <h3 class="titlemap">North</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47204.8491138416!2d-87.8945495562947!3d42.314734191787046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f9334178cb4d1%3A0xfa33c269fa98e825!2sNorth%20Chicago%2C%20Illinois%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1676665645665!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="cardmap" id="South">
+                <h3 class="titlemap">South</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23817.12701526674!2d-87.57256827067025!3d41.739054143980894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e280b7635b9eb%3A0xc5247d556b185350!2sSouth%20Chicago%2C%20Chicago%2C%20Illinois%2C%20EE.%20UU.!5e0!3m2!1ses!2sar!4v1676665703015!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
     </div>
-    
-    <div class="galery">
-        <figure class="bottom_image">
-            <img src="./assets/img/hockey_1.jpg" alt="Hockey Player 1" height="240">
-        </figure>
-        <figure class="bottom_image">
-            <img src="./assets/img/hockey_2.jpg" alt="Hockey Player 2" height="240">
-        </figure>
-        <figure class="bottom_image">
-            <img src="./assets/img/hockey_3.jpg" alt="Hockey Player 3" height="240">
-        </figure>
-    </div>
+    <footer></footer>
 </body>
 </html>
